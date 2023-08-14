@@ -27,7 +27,7 @@ export default function batchAsyncIterator<Yield>(
 			while (!isDone) {
 				const {done, value} = await iterator.next();
 				if (done) {
-					isDone = true;
+					isDone ||= true;
 				} else {
 					batch.push(value);
 				}

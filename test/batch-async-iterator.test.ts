@@ -55,19 +55,22 @@ describe('batchAsyncIterator', () => {
 
 	it('rejects if "iterable" rejects.', async () => {
 		const message = 'Iterable rejects.';
-		async function* iterable() {
+		async function* iterable(): AsyncIterable<unknown> {
 			throw new Error(message);
 		}
+
 		const iterator = batchAsyncIterator(iterable(), 1);
-		expect(iterator.next()).rejects.toThrow(message);
+		await expect(iterator.next()).rejects.toThrow(message);
 	});
 
 	it('rejects if "iterable" throws.', async () => {
 		const message = 'Iterable rejects.';
-		function* iterable() {
+		function* iterable(): Iterable<unknown> {
 			throw new Error(message);
 		}
+
 		const iterator = batchAsyncIterator(iterable(), 1);
-		expect(iterator.next()).rejects.toThrow(message);
+		await expect(iterator.next()).rejects.toThrow(message);
 	});
 });
+/* eslint-enable require-yield */

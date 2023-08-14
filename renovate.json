@@ -1,10 +1,7 @@
 {
-  "devDependencies": {
-    "automerge": true
-  },
-  "extends": [
-    "config:base",
-    "docker:disable"
-  ],
-  "pinVersions": false
+	"devDependencies": {
+		"automerge": true
+	},
+	"extends": ["config:base", "docker:disable"],
+	"pinVersions": false
 }
