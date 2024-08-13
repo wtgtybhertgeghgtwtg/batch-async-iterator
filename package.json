@@ -11,7 +11,7 @@
 		"@commitlint/cli": "^19.0.0",
 		"@commitlint/config-conventional": "^19.0.0",
 		"@evilmartians/lefthook": "^1.4.8",
-		"@rushstack/eslint-config": "^3.3.2",
+		"@rushstack/eslint-config": "^4.0.0",
 		"@tsconfig/esm": "^1.0.2",
 		"@tsconfig/node16": "^16.0.0",
 		"@tsconfig/strictest": "^2.0.1",
