@@ -16,7 +16,7 @@
 		"@tsconfig/node16": "^16.0.0",
 		"@tsconfig/strictest": "^2.0.1",
 		"@types/fill-range": "7.0.3",
-		"@types/jest": "^29.5.3",
+		"@types/jest": "^30.0.0",
 		"@types/node": "^22.0.0",
 		"babel-jest": "^30.0.0",
 		"cspell": "^8.0.0",
