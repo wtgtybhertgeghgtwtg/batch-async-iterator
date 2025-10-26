@@ -10,7 +10,7 @@
 		"@babel/preset-typescript": "^7.22.5",
 		"@commitlint/cli": "^20.0.0",
 		"@commitlint/config-conventional": "^20.0.0",
-		"@evilmartians/lefthook": "^1.4.8",
+		"@evilmartians/lefthook": "^2.0.0",
 		"@rushstack/eslint-config": "^4.0.0",
 		"@tsconfig/esm": "^1.0.2",
 		"@tsconfig/node16": "^16.0.0",
