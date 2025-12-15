@@ -13,7 +13,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 10
       - id: pnpm-cache
         shell: bash
         run: |
