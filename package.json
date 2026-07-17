@@ -5,9 +5,9 @@
 	},
 	"description": "Batch an AsyncIterator.",
 	"devDependencies": {
-		"@babel/core": "^7.22.9",
-		"@babel/preset-env": "^7.22.9",
-		"@babel/preset-typescript": "^7.22.5",
+		"@babel/core": "^8.0.0",
+		"@babel/preset-env": "^8.0.0",
+		"@babel/preset-typescript": "^8.0.0",
 		"@commitlint/cli": "^21.0.0",
 		"@commitlint/config-conventional": "^21.0.0",
 		"@evilmartians/lefthook": "^2.0.0",
